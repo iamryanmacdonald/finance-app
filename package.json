@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/backend": "^1.13.8",
     "@clerk/nextjs": "^5.7.1",
+    "@hono/clerk-auth": "^2.0.0",
+    "@hono/zod-validator": "^0.3.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "hono": "^4.6.3",
     "lucide-react": "^0.447.0",
     "next": "14.2.14",
     "prettier": "^3.3.3",
@@ -21,7 +25,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.3",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "typescript": "^5",
