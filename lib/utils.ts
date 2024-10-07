@@ -13,3 +13,11 @@ export function convertAmountToMilliUnits(amount: number) {
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
+
+export function formatCurrency(value: number) {
+  return Intl.NumberFormat("en-US", {
+    currency: "USD",
+    minimumFractionDigits: 2,
+    style: "currency",
+  }).format(value);
+}

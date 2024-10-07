@@ -22,7 +22,7 @@ import { convertAmountToMilliUnits } from "@/lib/utils";
 const formSchema = z.object({
   accountId: z.string(),
   amount: z.string(),
-  categoryId: z.string(),
+  categoryId: z.string().nullable().optional(),
   date: z.coerce.date(),
   notes: z.string().nullable().optional(),
   payee: z.string(),

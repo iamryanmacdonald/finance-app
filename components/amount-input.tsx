@@ -65,6 +65,7 @@ export const AmountInput = ({
         onValueChange={onChange}
         placeholder={placeholder}
         prefix="$"
+        value={value}
       />
       <p className="mt-2 text-xs text-muted-foreground">
         {isIncome && "This will count as income."}
