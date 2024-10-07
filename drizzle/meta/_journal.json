@@ -22,6 +22,13 @@
       "when": 1728263337563,
       "tag": "0002_oval_hex",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1728268767830,
+      "tag": "0003_talented_makkari",
+      "breakpoints": true
     }
   ]
 }
