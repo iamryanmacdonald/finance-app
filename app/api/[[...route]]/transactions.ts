@@ -85,6 +85,8 @@ const app = new Hono()
         : defaultFrom;
       const endDate = to ? parse(to, "yyyy-MM-dd", new Date()) : defaultTo;
 
+      console.log({ accountId, startDate, endDate });
+
       const data = await db
         .select({
           account: accounts.name,

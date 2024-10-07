@@ -17,7 +17,7 @@ import {
 import { useOpenAccount } from "@/features/accounts/hooks/use-open-account";
 import { useConfirm } from "@/hooks/use-confirm";
 
-export const EditAccountSheet = () => {
+export const EditTransactionSheet = () => {
   const { id, isOpen, onClose } = useOpenAccount();
 
   const [ConfirmDialog, confirm] = useConfirm(
