@@ -15,7 +15,7 @@ export const useGetAccount = (id?: string) => {
       const { data } = await response.json();
       return data;
     },
-    queryKey: ["account", id],
+    queryKey: ["account", { id }],
   });
 
   return query;
