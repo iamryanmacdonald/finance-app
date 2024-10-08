@@ -5,6 +5,7 @@
   "scripts": {
     "db:generate": "drizzle-kit generate --dialect=postgresql --schema=db/schema.ts --out=./drizzle",
     "db:migrate": "bun ./scripts/migrate.ts",
+    "db:seed": "bun ./scripts/seed.ts",
     "db:studio": "drizzle-kit studio",
     "dev": "next dev",
     "build": "next build",
