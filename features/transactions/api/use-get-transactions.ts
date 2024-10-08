@@ -28,7 +28,6 @@ export const useGetTransactions = () => {
         amount: convertAmountFromMilliUnits(transaction.amount),
       }));
     },
-    // TODO: Check if params are needed in the key
     queryKey: ["transactions", { accountId, from, to }],
   });
 

@@ -39,7 +39,6 @@ export const useGetSummary = () => {
         })),
       };
     },
-    // TODO: Check if params are needed in the key
     queryKey: ["summary", { accountId, from, to }],
   });
 
